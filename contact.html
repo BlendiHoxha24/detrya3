@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+}
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #4CAF50;
+}
+
+fieldset {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+
+input[list] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+
+legend {
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+    </style>
+</head>
+<body>
+    <form action="" >
+        <h1>Contact</h1>
+        <fieldset>
+            <legend>role</legend>
+        <h1>Contact information</h1>
+            <section>
+                <ul>
+                    <li>
+                        <label for="student">Student
+                            <input type="radio" name="student" id="student">
+                        </label>
+                    </li>
+                    <li>
+                        <label for="professor">Professor
+                            <input type="radio" name="professor" id="professor">
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+            <p><label for="">
+                Name: <br>
+                <input type="text" name="" id="">
+            </label></p>
+            <select name="" id="city">
+                <option value="Ferizaj">Ferizaj</option>
+                <option value="Gjilan">Gjilan</option>
+                <option value="Kaqanik">Kaqanik</option>
+            </select>
+            <p>
+                <label for="subject">your favorite subject</label><br>
+                <input type="" name="subject" id="subject" list="AutoCompleteBox">
+                <datalist id="AutoCompleteBox">
+                    <option value="web programing">
+                    <option value="web dezing">
+                    <option value="Hyrje databaz">
+                    <option value="siguria e databazes">
+                    <option value="IOT">
+                        <option value="android studio"></option>
+                  </datalist>
+            </p>
+            <p>
+                <label for="email">
+                    Email:
+                    <br>
+                    <input type="email" name="" id="">
+                </label>
+            </p>
+            <p>
+                <label for="passowrd">
+                    Password:
+                    <br>
+                    <input type="password" name="" id="">
+                </label>
+            </p>
+        </section>
+        <section>
+            <p>
+                <button type="button">Button</button>
+            </p>
+        </section>
+    </form>
+</body>
+</html>

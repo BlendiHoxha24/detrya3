@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <style>
+   body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.djathtas {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #2ecc71;
+}
+
+p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.flexi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.orari {
+  width: 48%;
+  border: 2px solid #2ecc71; 
+  border-radius: 8px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2ecc71; 
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #2ecc71; 
+  width: 100%;
+}
+
+th {
+  background-color: #2ecc71; 
+  color: #fff;
+}
+td{
+  border-left:  1px solid #2ecc71;
+}
+td:first-child() {
+border-left: none;
+
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ecf0f1;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ffffff; 
+}
+
+    </style>
+</head>
+<body>
+    <div class="djathtas">
+			
+        <h1>Përmbledhje</h1>
+        <p>Qëllimi kryesor i këtij kursi është të mësojë nga konceptet bazë deri tek konceptet e avancuara të programimit të aplikacioneve në ueb dhe të jetë në gjendje të krijojë vetë një ueb aplikacion.
+        Studentët do të mësojnë gjuhët dhe teknologjitë për t'u përdorur në programimin në ueb duke përfshirë të gjitha konceptet e tyre. 
+        </p>
+        <p>...</p>
+        <p>...</p>
+        
+        
+                <h1>Konsultat </h1>
+                <p>Mundësi të takimeve në ambiente të ndryshme për orë të hapura për konsulta dhe diskutime në vende të ndryshme jashtë zyrës së konsultave: (Në bibliotekë, në tavolinat e konsultave grupore në sallë të caktuar, në holle të AAB), për kohën dhe vendin do të akordohemi së bashku. Takimet mund të bëhen individuale, grupe të vogla apo grupe më të mëdha. </p>
+        <h1>Orari</h1>
+
+            <div class="flexi">
+                <div class="orari">
+
+            <table>
+            <caption>Orari i ligjeratave për semestrin e tretë</caption>   
+            <tbody><tr>
+              <td></td>
+              <th>Tipi</th>
+              <th>E merkure</th>
+             </tr>
+             <tr>
+               <td rowspan="2">Programimi i ueb aplilkacioneve</td>
+               <td>L</td>
+               <td>13:00-14:30</td>  
+             </tr>
+             <tr>
+               <td>P</td>
+               <td>14:45-16:15</td>
+             </tr>
+            </tbody></table>
+          </div>
+          <div class="orari">
+          
+            <table>
+            <caption>Orari i kollokfiumit</caption>   
+            <tbody><tr>
+              <td></td>
+              <th>Data</th>
+              <th>E merkure</th>
+             </tr>
+             <tr>
+               <td>Programimi i ueb aplilkacioneve</td>
+               <td>27.11.2023</td>
+               <td>13:00-14:30</td>  
+             </tr>
+             
+            </tbody></table>
+          </div>
+            </div>
+</div>
+</body>
+</html>
+
+
